@@ -7,7 +7,7 @@
   <input type="submit" value="Register User" />
 </form>
 
-<p>Already have an accouns <a href="{% url 'login' %}">Login</a></p>
+<p>Already have an account? <a href="{% url 'login' %}">Login</a></p>
 
 {% else %}
 <form action="{% url 'login' %}" method="POST">
